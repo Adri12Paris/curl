@@ -1,0 +1,5 @@
+curl https://city-bird.zendesk.com/api/v2/imports/tickets/create_many.json \
+    -v -u "SYhzVXUFOeF0JUVrXGbzTaRfpovnRsbbwVKTvd5Z" \
+    -H "Content-Type: application/json" \
+    -d "@C:\Users\adrid\Desktop\tickets.json" \
+    -X POST
